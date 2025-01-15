@@ -1,4 +1,4 @@
-# Ultralytics YOLOv3 🚀, AGPL-3.0 license
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 """
 Run YOLOv3 classification inference on images, videos, directories, globs, YouTube, webcam, streams, etc.
 
@@ -192,7 +192,7 @@ def run(
                     vid_writer[i].write(im0)
 
         # Print time (inference-only)
-        LOGGER.info(f"{s}{dt[1].dt * 1E3:.1f}ms")
+        LOGGER.info(f"{s}{dt[1].dt * 1e3:.1f}ms")
 
     # Print results
     t = tuple(x.t / seen * 1e3 for x in dt)  # speeds per image
